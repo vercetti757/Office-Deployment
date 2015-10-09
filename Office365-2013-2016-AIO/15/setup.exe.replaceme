@@ -1,0 +1,4 @@
+[AutoRun]
+OPEN=1-Install-O365-2016-v3.0.cmd
+ACTION=Launch Office 365 and 2013 Installer
+LABEL=Office365-2013-AIO
