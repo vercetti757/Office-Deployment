@@ -6,16 +6,24 @@ In order to use this script you will need to download the current versions of th
 You only need to download the Deployment Tools for the verion(s) of Office you are installing.
 
 You can find the Office 2013 Deployment Tool here:
-<Link>
-After downloading, extract the files from the download. Place "setup.exe. in the directory ""OfficeAIO\15\" of the Deployment Script Files.
+http://www.microsoft.com/en-us/download/details.aspx?id=36778
+
+After downloading, extract the files from the download. Place "setup.exe" in the directory "Office365-2013-2016-AIO\" of the Deployment Script Files.
 
 You can find the Office 2016 Deployment Tool here:
-<Link>
-After downloading, extract the files from the download. Place "setup.exe. in the directory ""OfficeAIO\16\" of the Deployment Script Files.
+http://www.microsoft.com/en-us/download/details.aspx?id=49117
 
-Once the setup.exe files are in the correct directory, launch the script by double-clicking "1-Install-Office.cmd"
+After downloading, extract the files from the download. Place "setup.exe" in the directory "Office365-2013-2016-AIO\16\" of the Deployment Script Files.
+
+Once the setup.exe files are in the correct directory, launch the script by double-clicking "1-Install-O365-2013-v3.0.cmd"
 
 You will need to choose the menu options to update/download the offline setup files before you can install.
 
--Aaron Walker
+The "Read Me - Instructions.pdf" file is outdated and only from the 2013 version but the step-by-step instructions with pictures should still apply to installing the 2016 verions.
+
+All download links were current as of time of writing. For more information and links to other scripts and tools visit:
+
+www.aaronwa.com
+
+-aaronwa
 10/30/2015
