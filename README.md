@@ -19,7 +19,6 @@ Thanks to the amazing people over at http://officedev.github.io/Office-IT-Pro-De
 
 I welcome any feedback, and feel free to use/steal/fork/merge this code as needed.
 
-/* This program is free software. It comes without any warranty, to
- * the extent permitted by applicable law. You can redistribute it
- * and/or modify it under the terms of the Do As You See Fit
- * Public License, Version 4, as published by the author.*/
+LEGAL DISCLAIMER
+
+* This program is free software. It comes without any warranty, to the extent permitted by applicable law. You can redistribute it and/or modify it under the terms of the Do As You See Fit Public License, Version 4, as published by the author. /*
