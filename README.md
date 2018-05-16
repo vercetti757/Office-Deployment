@@ -1,30 +1,25 @@
 # Office-Deployment
-A Script to automate the install and upgrades of Office 2013, 2016, and Office 365.
+Scripts used with SCCM or standalone to install Office 365 and remove previous versions of Microsoft Office.
 
-In order to use this script you will need to download the current versions of the Office Deployment Tool from Microsoft. You will need to download 1 file for 2013 based products and a 2nd file for 2016 based products. For licensing reasons I am not able to include the setup.exe files directly in this package.
+These are examples of scripts used for deploying Office 365 to workstations. I originally used PowerShell to leverage some nice enhancements, but re-wrote these scripts in .bat and .vbs to maintain compatibility with legacy devices and machines with broken Windows Management Framework. 
 
-You only need to download the Deployment Tools for the verion(s) of Office you are installing.
-
-You can find the Office 2013 Deployment Tool here:
-http://www.microsoft.com/en-us/download/details.aspx?id=36778
-
-After downloading, extract the files from the download. Place "setup.exe" in the directory "Office365-2013-2016-AIO\15\" of the Deployment Script Files.
+In order to use these scripts for installing Office 365 you will need to download the current versions of the Office Deployment Tool from Microsoft. For licensing reasons I am not able to include the setup.exe files directly in this repo. If you are only trying to remove previous versions of Office, no further dowloads are needed.
 
 You can find the Office 2016 Deployment Tool here:
 http://www.microsoft.com/en-us/download/details.aspx?id=49117
 
-After downloading, extract the files from the download. Place "setup.exe" in the directory "Office365-2013-2016-AIO\16\" of the Deployment Script Files.
+After downloading, extract the files from the download. Place "setup.exe" in root of the folder above(this Repo).
 
-Once the setup.exe files are in the correct directory, launch the script by double-clicking "1-Install-Office.cmd"
+To download setup files for Office 365, run:
+setup.exe /download "Office365_Prod_Full.xml"
 
-You will need to choose the menu options to update/download the offline setup files before are able to install any Office products.
+This will download source files that match the channel and versions listed in the corresponding XML file.
 
-The "Read Me - Instructions.pdf" file is outdated and only from the 2013 version but the step-by-step instructions with pictures should still apply to installing the 2016 verions.
+Thanks to the amazing people over at http://officedev.github.io/Office-IT-Pro-Deployment-Scripts/  They have truly raised the bar and has been a pleasure collobarating with them over the past few years.
 
-All download links were current as of time of writing. For more information and links to other scripts and tools visit:
+I welcome any feedback, and feel free to use/steal/fork/merge this code as needed.
 
-www.aaronwa.com
-
--aaronwa
-
-10/30/2015
+/* This program is free software. It comes without any warranty, to
+ * the extent permitted by applicable law. You can redistribute it
+ * and/or modify it under the terms of the Do As You See Fit
+ * Public License, Version 4, as published by the author.*/
