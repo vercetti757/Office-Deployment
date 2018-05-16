@@ -1,0 +1,19 @@
+<Configuration>
+    <Add OfficeClientEdition="32" Channel="Broad" ForceUpgrade="TRUE" OfficeMgmtCOM="TRUE">
+        <Product ID="O365ProPlusRetail">
+            <Language ID="en-us"/>
+        </Product>
+        <Product ID="VisioProRetail">
+            <Language ID="en-us"/>
+        </Product>
+        <Product ID="ProjectProRetail">
+            <Language ID="en-us"/>
+        </Product>
+    </Add>
+    <Display Level="None" AcceptEULA="TRUE"/>
+    <Logging Level="Standard" Path="%SystemDrive%\Logs\"/>
+    <Updates Enabled="FALSE"/>
+    <Property Name="FORCEAPPSHUTDOWN" Value="TRUE"/>
+    <Property Name="SharedComputerLicensing" Value="0"/>
+    <Property Name="PinIconsToTaskbar" Value="FALSE"/>
+</Configuration>
